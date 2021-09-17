@@ -82,11 +82,11 @@ p {
 }
 
 .headshot {
-padding-left: 100px;
+  padding-left: 100px;
 }
 
 .content-container {
-   padding: 140px 20px;
+  padding: 140px 20px;
 }
 
 .content h1 {
@@ -108,9 +108,19 @@ padding-left: 100px;
 }
 
 .logo-container img {
-padding: 20px;
-margin-left: 100px;
+  padding: 20px;
+  margin-left: 100px;
 }
+
+/* .tea-image {
+  max-height: 382px;
+  background: #FCF8F3;
+  padding: 0 50px;
+}
+
+.dictionary-image {
+   max-height: 382px;
+} */
 
 @media (max-width: 960px) {
   .hero h1 {
@@ -175,6 +185,6 @@ margin-left: 100px;
     display: block;
     margin: 0 auto;
     padding: 25px;
-
-}
+  }
+  
 }
