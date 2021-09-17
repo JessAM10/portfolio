@@ -112,15 +112,6 @@ p {
   margin-left: 100px;
 }
 
-/* .tea-image {
-  max-height: 382px;
-  background: #FCF8F3;
-  padding: 0 50px;
-}
-
-.dictionary-image {
-   max-height: 382px;
-} */
 
 @media (max-width: 960px) {
   .hero h1 {
