@@ -114,6 +114,11 @@ p {
 
 
 @media (max-width: 960px) {
+.hero {
+    padding: 100px 20px;
+}
+
+
   .hero h1 {
     font-size: 80px;
   }
