@@ -117,6 +117,10 @@ p {
   margin-left: 100px;
 }
 
+.work {
+  font-size: 68px;
+}
+
 .project-grid {
   margin-bottom: 100px;
   text-align: center;
@@ -143,9 +147,43 @@ p {
   margin: 50px;
 }
 
+.projects img {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+}
+
+.projects p, 
+.projects h3,
+.tea-project p,
+.tea-project h3 {
+  text-align: center;
+}
+
+.projects p, 
+.tea-project p {
+  margin: 25px 100px 50px;
+}
+
 .tea-project {
   margin: 100px;
 }
+
+
+.tea-project img{
+  display: block;
+  margin: auto;
+  max-width: 60%;
+}
+
+.projects a,
+.tea-project a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 240px;
+}
+
 
 @media (max-width: 960px) {
   .hero {
