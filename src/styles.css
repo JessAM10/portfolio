@@ -133,6 +133,10 @@ p {
   margin: 30px;
 }
 
+.project-grid img:hover {
+  opacity: 90%;
+}
+
 .project-grid h3 {
   font-family: var(--default-font-family);
   font-size: 40px;
@@ -144,7 +148,7 @@ p {
 }
 
 .projects {
-  margin: 50px;
+  margin: 50px 0;
 }
 
 .projects img {
@@ -166,7 +170,7 @@ p {
 }
 
 .tea-project {
-  margin: 100px;
+  margin: 100px 0;
 }
 
 
@@ -258,4 +262,28 @@ p {
     display: block;
     margin: 0 auto;
   }
+
+  .project-grid img {
+  object-fit: scale-down;
+  width: auto;
+  height: auto;
+}
+
+.work {
+  font-size: 40px;
+}
+
+.project-grid h3 {
+  font-size: 30px;
+  font-weight: medium;
+}
+
+.projects p, 
+.tea-project p {
+  margin: 20px 0;
+}
+
+.tea-project {
+  margin: 50px 0;
+}
 }
