@@ -26,6 +26,16 @@ p {
   line-height: 30px;
 }
 
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 80px;
+}
+
 .hero {
   text-align: center;
   padding: 160px 20px;
@@ -157,14 +167,14 @@ p {
   max-width: 75%;
 }
 
-.projects p, 
+.projects p,
 .projects h3,
 .tea-project p,
 .tea-project h3 {
   text-align: center;
 }
 
-.projects p, 
+.projects p,
 .tea-project p {
   margin: 25px 100px 50px;
 }
@@ -173,8 +183,7 @@ p {
   margin: 100px 0;
 }
 
-
-.tea-project img{
+.tea-project img {
   display: block;
   margin: auto;
   max-width: 60%;
@@ -182,12 +191,36 @@ p {
 
 .projects a,
 .tea-project a {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    max-width: 240px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 240px;
 }
 
+.mailbox-image {
+  display: block;
+  margin: 50px auto;
+}
+
+.contact {
+  font-size: 48px;
+}
+
+.contact-email {
+  font-size: 50px;
+  font-family: var(--default-font-family);
+}
+
+.contact-icons {
+  margin-top: 60px;
+  font-size: 96px;
+  color: var(--branding-color);
+}
+
+.contact-icons:hover {
+  color: var(--branding-color);
+  opacity: 90%;
+}
 
 @media (max-width: 960px) {
   .hero {
@@ -264,26 +297,26 @@ p {
   }
 
   .project-grid img {
-  object-fit: scale-down;
-  width: auto;
-  height: auto;
-}
+    object-fit: scale-down;
+    width: auto;
+    height: auto;
+  }
 
-.work {
-  font-size: 40px;
-}
+  .work {
+    font-size: 40px;
+  }
 
-.project-grid h3 {
-  font-size: 30px;
-  font-weight: medium;
-}
+  .project-grid h3 {
+    font-size: 30px;
+    font-weight: medium;
+  }
 
-.projects p, 
-.tea-project p {
-  margin: 20px 0;
-}
+  .projects p,
+  .tea-project p {
+    margin: 20px 0;
+  }
 
-.tea-project {
-  margin: 50px 0;
-}
+  .tea-project {
+    margin: 50px 0;
+  }
 }
