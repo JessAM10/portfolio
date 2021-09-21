@@ -28,6 +28,8 @@ p {
 
 ul {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -36,6 +38,17 @@ li {
   margin: 80px;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+
+  margin: 20px;
+}
 .hero {
   text-align: center;
   padding: 160px 20px;
