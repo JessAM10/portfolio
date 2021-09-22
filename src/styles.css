@@ -38,6 +38,11 @@ li {
   margin: 80px;
 }
 
+nav {
+  padding: 30px;
+  margin: 0 40px;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -46,9 +51,22 @@ nav ul {
 nav li {
   list-style: none;
   display: inline;
-
-  margin: 20px;
+  line-height: 42px;
+  margin: 15px;
+  font-size: 16px;
 }
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   text-align: center;
   padding: 160px 20px;
@@ -65,6 +83,10 @@ nav li {
   font-size: 24px;
   line-height: 2;
   color: #272142;
+}
+
+.logo {
+  max-height: 30px;
 }
 
 .btn-branding {
@@ -141,7 +163,9 @@ nav li {
 }
 
 .work {
-  font-size: 68px;
+  font-size: 50px;
+  text-align: left;
+  padding: 100px 0;
 }
 
 .project-grid {
@@ -153,7 +177,7 @@ nav li {
   width: 600px;
   height: 400px;
   object-fit: cover;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .project-grid img:hover {
@@ -162,7 +186,7 @@ nav li {
 
 .project-grid h3 {
   font-family: var(--default-font-family);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: medium;
 }
 
@@ -223,13 +247,12 @@ nav li {
 .contact-email {
   font-size: 32px;
   font-family: var(--default-font-family);
-  text-align: center;  
+  text-align: center;
   margin-top: 90px;
-
 }
 
 .contact-email a {
-  color: var(--branding-color);  
+  color: var(--branding-color);
   text-decoration: none;
   display: block;
   margin: 10px auto 80px;
@@ -247,6 +270,19 @@ nav li {
 }
 
 @media (max-width: 960px) {
+  nav {
+    padding: 20px 0;
+  }
+
+  nav li {
+    margin: 5px;
+  }
+
+  nav a {
+    font-size: 12px;
+    margin: ;
+  }
+
   .hero {
     padding: 80px 5px;
   }
