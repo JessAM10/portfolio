@@ -35,7 +35,7 @@ ul {
 li {
   list-style: none;
   display: inline;
-  margin: 80px;
+  margin: 40px;
 }
 
 nav {
@@ -87,6 +87,7 @@ footer .email {
 footer .social-icons {
   color: var(--branding-color);
 }
+
 
 .hero {
   text-align: center;
@@ -261,8 +262,8 @@ footer .social-icons {
 }
 
 .contact {
-  font-size: 48px;
-  margin-bottom: 100px;
+  font-size: 40px;
+  margin: 50px 0 100px;
 }
 
 .contact-email {
@@ -273,15 +274,15 @@ footer .social-icons {
 }
 
 .contact-email a {
-  color: var(--branding-color);
+  color: #000;
   text-decoration: none;
   display: block;
-  margin: 10px auto 80px;
+  margin: 10px 0 30px;
 }
 
 .contact-icons {
   margin-top: 60px;
-  font-size: 96px;
+  font-size: 60px;
   color: var(--branding-color);
 }
 
