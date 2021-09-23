@@ -86,12 +86,28 @@ footer .email {
 
 footer .social-icons {
   color: var(--branding-color);
+  margin-top: ;
+  padding: 0;
 }
 
+footer .open-source {
+   opacity: 90%;
+}
+
+footer p a {
+  color: #000;
+  opacity: 100%;
+  text-decoration: none;
+
+}
+
+footer p a:hover {
+  color: var(--branding-color);
+}
 
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 140px 20px 250px;
 }
 
 .hero p {
@@ -289,10 +305,6 @@ footer .social-icons {
 .contact-icons:hover {
   color: var(--branding-color);
   opacity: 90%;
-}
-
-.footer-heading {
-  display: inline;
 }
 
 @media (max-width: 960px) {
