@@ -94,13 +94,14 @@ footer .open-source {
 }
 
 footer p a {
-  color: #000;
+  color: var(--branding-color);
   opacity: 100%;
   text-decoration: none;
 }
 
 footer p a:hover {
   color: var(--branding-color);
+  text-decoration: underline;
 }
 
 .hero {
@@ -332,6 +333,10 @@ footer p a:hover {
 
   .hero p {
     font-size: 30px;
+  }
+
+  .logo {
+    max-height: 20px;
   }
 
   .recent {
