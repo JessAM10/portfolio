@@ -1,137 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/744ce35a6c.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="src/styles.css">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/744ce35a6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Jessica Allard Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="d-flex justify-content-between">
-        <a href="/">
-            <img src="/images/JA.png" alt="logo-placeholder" class="logo">
-        </a>
-        <ul>
-            <li>
-                <a href="/"> Home</a>
-            </li>
-            <li>
-                <a href="/about.html">About</a>
-            </li>
-            <li  class="active"> <a href="/work.html">Work</a></li>
-            <li> <a href="/contact.html"> Contact</a></li>
-        </ul>
+      <a href="/">
+        <img src="/images/JA.png" alt="logo-placeholder" class="logo" />
+      </a>
+      <ul>
+        <li>
+          <a href="/"> Home</a>
+        </li>
+        <li>
+          <a href="/about.html">About</a>
+        </li>
+        <li class="active"><a href="/work.html">Work</a></li>
+        <li><a href="/contact.html"> Contact</a></li>
+      </ul>
     </nav>
 
     <div class="container project-grid">
-         <h1 class="work">
-        Here's what I've been working on!
-    </h1>
-    <div class="row">
-           <div class="col-lg-6 mb-3">
-               <a href="#weather"><img src="/images/weather.png" alt="Weather app displaying the temperature and forecast of Montreal" class= img-fluid rounded"></a>
-           <h3>
-               Weather App
-           </h3>
-           <p>HTML, CSS, JavaScript <br /> API, Bootstrap</p>
-            </div>
-<div class="col-lg-6 mb-3">
-    <a href="#tea"><img src="/images/tea3.png" alt="Webpage about tea" class="rounded img-fluid tea-image"></a>
-    <h3 >Tea Landing Page</h3>
-    <p>HTML, CSS, JavaScript</p>
-</div>
+      <h1 class="work">Here's what I've been working on!</h1>
+      <div class="row">
+        <div class="col-lg-6 mb-3">
+          <a href="#weather"
+            ><img src="/images/weather.png" alt="Weather app displaying the
+            temperature and forecast of Montreal" class= img-fluid rounded"></a
+          >
+          <h3>Weather App</h3>
+          <p>
+            HTML, CSS, JavaScript <br />
+            API, Bootstrap
+          </p>
         </div>
-        <div class="row">
-            <div class="col-lg-6 mb-3">
-                <a href="#portfolio"><img src="/images/portfolio2.png" alt="Portfolio webpage" class="img-fluid rounded"></a>
-                <h3>Portfolio</h3>
-                <p>Advanced HTML and CSS <br> Bootstrap, Responsive</p>
-            </div>
-            <div class="col-lg-6 d-none d-lg-block">
-                <img src="/images/dictionary.jpg" alt="dictionary app open on a smartphone with the word design defined" class= img-fluid rounded dictionary-image">
-                <h3>Dictionary App</h3>
-                <p>Coming Soon</p>
-            </div>
+        <div class="col-lg-6 mb-3">
+          <a href="#tea"
+            ><img
+              src="/images/tea3.png"
+              alt="Webpage about tea"
+              class="rounded img-fluid tea-image"
+          /></a>
+          <h3>Tea Landing Page</h3>
+          <p>HTML, CSS, JavaScript</p>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-3">
+          <a href="#portfolio"
+            ><img
+              src="/images/portfolio2.png"
+              alt="Portfolio webpage"
+              class="img-fluid rounded"
+          /></a>
+          <h3>Portfolio</h3>
+          <p>
+            Advanced HTML and CSS <br />
+            Bootstrap, Responsive
+          </p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="/images/dictionary.jpg" alt="dictionary app open on a
+          smartphone with the word design defined" class= img-fluid rounded
+          dictionary-image">
+          <h3>Dictionary App</h3>
+          <p>Coming Soon</p>
+        </div>
+      </div>
     </div>
     <div class="background">
-    <div class="container">
+      <div class="container">
         <div class="row">
-    <div class="col-lg-12 projects">
-            <img src="/images/weather.png" alt="Weather app displaying the temperature and forecast of Montreal" id="weather" class="img-fluid rounded">
+          <div class="col-lg-12 projects">
+            <img
+              src="/images/weather.png"
+              alt="Weather app displaying the temperature and forecast of Montreal"
+              id="weather"
+              class="img-fluid rounded"
+            />
             <h3 class="mt-4">Weather App</h3>
-<p> I built a Vanilla JavaScript weather app in SheCodes Plus, an advanced 8-week JavaScript coding workshop. I became
-skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these
-skills to create a fully-functional weather app. I enjoyed imbuing the design with my love for travel ✈</p>
-<a href="https://agitated-einstein-d4057f.netlify.app/" target="_blank" class="btn btn-branding">View Weather App</a>
+            <p>
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. I became skilled in
+              Bootstrap, API’s, real-life development workflow, hosting, and
+              advanced JavaScript. I combined all of these skills to create a
+              fully-functional weather app. I enjoyed imbuing the design with my
+              love for travel ✈
+            </p>
+            <a
+              href="https://agitated-einstein-d4057f.netlify.app/"
+              target="_blank"
+              class="btn btn-branding"
+              >View Weather App</a
+            >
+          </div>
         </div>
-    </div>
-</div>
+      </div>
     </div>
     <div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-lg-12 tea-project">
-            <img src="/images/tea3.png" alt="Webpage about tea"
-                id="tea" class="img-fluid rounded">
-                <h3 class="mt-4">Tea Landing Page</h3>
-            <p> I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used these languages, along with my new skills in VS Code, to build a landing page about one of my favourite drinks – tea 🍵. The page uses JavaScript
-            functions to create user interaction.</p>
-            <a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/413/612/original/basics-final-project.html?1625775719" class="btn btn-branding" target="_blank">View Landing Page</a>
+          <img
+            src="/images/tea3.png"
+            alt="Webpage about tea"
+            id="tea"
+            class="img-fluid rounded"
+          />
+          <h3 class="mt-4">Tea Landing Page</h3>
+          <p>
+            I entered the world of front-end development by gaining some
+            knowledge in HTML, CSS, and JavaScript. I used these languages,
+            along with my new skills in VS Code, to build a landing page about
+            one of my favourite drinks – tea 🍵. The page uses JavaScript
+            functions to create user interaction.
+          </p>
+          <a
+            href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/413/612/original/basics-final-project.html?1625775719"
+            class="btn btn-branding"
+            target="_blank"
+            >View Landing Page</a
+          >
         </div>
+      </div>
     </div>
- </div>
-  <div class="background">
-    <div class="container">
+    <div class="background">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-12 projects">
-                <img src="/images/portfolio.png" alt="Portfolio webpage" id="portfolio" class="img-fluid rounded">
-                <h3 class="mt-4">
-                    Portfolio
-                </h3>
-                <p>I built this site to showcase the skills I gained from my training at SheCodes. It employs more advanced HTML and CSS,
-                it’s responsive, and it’s SEO friendly.</p>
-            <a href="/" target="_blank" class="btn btn-branding">View Portfolio</a>
-
-             </div>
-           
-             </div>
+          <div class="col-lg-12 projects">
+            <img
+              src="/images/portfolio.png"
+              alt="Portfolio webpage"
+              id="portfolio"
+              class="img-fluid rounded"
+            />
+            <h3 class="mt-4">Portfolio</h3>
+            <p>
+              I built this site to showcase the skills I gained from my training
+              at SheCodes. It employs more advanced HTML and CSS, it’s
+              responsive, and it’s SEO friendly.
+            </p>
+            <a href="/" target="_blank" class="btn btn-branding"
+              >View Portfolio</a
+            >
           </div>
-          </div>
-<footer>
-    <div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
         <ul>
-            <li>
-                <a href="mailto:jess.allardm@gmail.com" class="social-icons"><i class="fas fa-envelope"></i></a>
-
-            </li>
-            <li><a href="https://www.twitter.com/_jessintech" target="_blank" class="social-icons"><i
-                        class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://github.com/JessAM10" target="_blank" class="social-icons"><i
-                        class="fab fa-github-square"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/jessallardm" target="_blank" class="social-icons"><i
-                        class="fab fa-linkedin"></i></a></li>
+          <li>
+            <a href="mailto:jess.allardm@gmail.com" class="social-icons"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/_jessintech"
+              target="_blank"
+              class="social-icons"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/JessAM10"
+              target="_blank"
+              class="social-icons"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jessallardm"
+              target="_blank"
+              class="social-icons"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
         </ul>
-    </div>
+      </div>
 
-
-    <div class="open-source mt-4">
-        <p class="text-center">💻 <a href="https://github.com/JessAM10/portfolio" target="_blank">Open-source</a> code by <a
-                href="https://www.linkedin.com/in/jessallardm/" target="_blank">Jessica Allard</a></p>
-    </div>
-
-</footer>
-</body>
+      <div class="open-source mt-4">
+        <p class="text-center">
+          💻
+          <a href="https://github.com/JessAM10/portfolio" target="_blank"
+            >Open-source</a
+          >
+          code by
+          <a href="https://www.linkedin.com/in/jessallardm/" target="_blank"
+            >Jessica Allard</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
