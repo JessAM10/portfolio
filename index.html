@@ -30,20 +30,58 @@
   </head>
 
   <body>
-    <nav class="d-flex justify-content-between">
-      <a href="/">
-        <img src="/images/JA.png" alt="logo-placeholder" class="logo" />
-      </a>
-      <ul>
-        <li class="active">
-          <a href="/"> Home</a>
-        </li>
-        <li>
-          <a href="/about.html">About</a>
-        </li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html"> Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-light bg-white navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="/images/JA.png" alt="logo" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/"
+                title="homepage"
+                > <span class="active">Home</span> </a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/work.html"
+                title="Web development work by Jessica Allard"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="about Jessica Allard"
+                >About</a
+              >
+            </li>
+             <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="contact Jessica Allard"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <div class="hero">
