@@ -5,14 +5,6 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-.navbar-toggler {
-  border: 1px solid var(--secondary-color)!important;
-}
-
-.hamburger-menu {
-  color: var(--branding-color);
-}
-
 h1,
 h2,
 h3,
@@ -110,6 +102,14 @@ footer p a {
 footer p a:hover {
   color: var(--branding-color);
   text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.hamburger-menu {
+  color: var(--branding-color);
 }
 
 .hero {
