@@ -5,6 +5,14 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+.navbar-toggler {
+  border: 1px solid var(--secondary-color)!important;
+}
+
+.hamburger-menu {
+  color: var(--branding-color);
+}
+
 h1,
 h2,
 h3,
@@ -428,11 +436,10 @@ footer p a:hover {
     padding: 10px;
   }
 
-  .contact-email
-  {
+  .contact-email {
     font-size: 20px;
   }
-  
+
   .contact-icons {
     font-size: 40px;
   }
