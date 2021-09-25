@@ -112,6 +112,10 @@ footer p a:hover {
   color: var(--branding-color);
 }
 
+.nav-link {
+  font-size: 16px;
+}
+
 .hero {
   text-align: center;
   padding: 140px 20px 250px;
